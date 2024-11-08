@@ -12,8 +12,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    with: 600px;
-    height: 500px;
 }
 #logo {
     width: 635px;
@@ -26,6 +24,10 @@ img {
     color: rgba(0, 0, 255, 0.712);
 }
 .carousel {
-    height: 600px;
+    height: 400px;
     background-color: lightgreen;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 350px;
 }
