@@ -4,39 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Guido - Project 01</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap.min.css">
-  <script src="jquery.min.js"></script>
+<!--   <script src="jquery.min.js"></script> -->
   <script src="bootstrap.min.js"></script>
-  <style>
-    body {
-      max-width: 600px;
-      margin: auto;
-    }
-    div {
-      margin-top: 100px;
-      margin-bottom: 50px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-
-    }
-    .footnote {
-      color: rgba(0, 0, 255, 0.712);
-    }
-    .carousel {
-      height: 600px;
-      background-color: lightgreen;
-    }
-  </style>
 </head>
 
 <body>
   <div><img style="width:635px; height:138px" src="logo.png" /></div>
-  <h2>Susi's Kittens Carousel</h2>
+  <h2>Susi's Kitten Carousel</h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -47,13 +23,13 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="./cat0.jpg" alt="Cuties First">
+        <img src="./cat0.jpg" alt="1st cat">
       </div>
       <div class="item">
-        <img src="./cat1.jpg" alt="Cuties Second">
+        <img src="./cat1.jpg" alt="2nd cat">
       </div>
       <div class="item">
-        <img src="./cat2.jpg" alt="Cuties Third">
+        <img src="./cat2.jpg" alt="3rd cat">
       </div>
     </div>
     <!-- Left and right controls -->
@@ -66,7 +42,7 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <p class="footnote"><i>Deployed by <b>Susi</b> on an AWS EC2 Instance using AWS
-      Cloudformation Service.</i></p>
+  <p class="footnote">Deployed by Susi on an AWS EC2 Instance using AWS
+      Cloudformation Service.</p>
 </body>
 </html>

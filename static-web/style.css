@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+    background-color: darkgreen;
+}
+div {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.footnote {
+    color: rgba(0, 0, 255, 0.712);
+}
+.carousel {
+    height: 600px;
+    background-color: lightgreen;
+}
