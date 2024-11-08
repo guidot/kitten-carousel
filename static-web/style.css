@@ -14,6 +14,9 @@ img {
     margin-right: auto;
 
 }
+.x {
+    text-align: center;
+}
 .footnote {
     color: rgba(0, 0, 255, 0.712);
 }
